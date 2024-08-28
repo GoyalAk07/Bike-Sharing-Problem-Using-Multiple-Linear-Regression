@@ -9,22 +9,22 @@ This project aims to predict the demand for bike rentals in a city based on vari
 
 The dataset used in this project is sourced from the UCI Machine Learning Repository and contains the following features:
 
-- **Instant:** Record index
-- **Date:** Date (YYYY-MM-DD)
-- **Season:** Season (1: Winter, 2: Spring, 3: Summer, 4: Fall)
-- **Year:** Year (0: 2011, 1: 2012)
-- **Month:** Month (1 to 12)
-- **Holiday:** Whether the day is a holiday
-- **Weekday:** Day of the week (0: Sunday, 1: Monday, ..., 6: Saturday)
-- **Workingday:** Whether the day is neither a weekend nor a holiday
-- **Weather:** Weather condition (1: Clear, 2: Mist, 3: Light Snow/Rain, 4: Heavy Rain/Snow)
-- **Temperature:** Normalized temperature in Celsius
-- **Feels_like:** Normalized feeling temperature in Celsius
-- **Humidity:** Normalized humidity
-- **Windspeed:** Normalized wind speed
-- **Casual:** Number of non-registered user rentals
-- **Registered:** Number of registered user rentals
-- **Count:** Total number of bike rentals (target variable)
+- Instant: Record index
+- Date: Date (YYYY-MM-DD)
+- Season: Season (1: Winter, 2: Spring, 3: Summer, 4: Fall)
+- Year: Year (0: 2011, 1: 2012)
+- Month: Month (1 to 12)
+- Holiday: Whether the day is a holiday
+- Weekday: Day of the week (0: Sunday, 1: Monday, ..., 6: Saturday)
+- Workingday: Whether the day is neither a weekend nor a holiday
+- Weather: Weather condition (1: Clear, 2: Mist, 3: Light Snow/Rain, 4: Heavy Rain/Snow)
+- Temperature: Normalized temperature in Celsius
+- Feels_like: Normalized feeling temperature in Celsius
+- Humidity: Normalized humidity
+- Windspeed: Normalized wind speed
+- Casual: Number of non-registered user rentals
+- Registered: Number of registered user rentals
+- Count: Total number of bike rentals (target variable)
 
 ## Compilation
 
@@ -49,11 +49,11 @@ The project is implemented in a Jupyter Notebook and should be executed sequenti
 
 The notebook is structured as follows:
 
-1. **Dataset Information:** Overview and visualization of the dataset to understand the distribution of variables.
-2. **Exploratory Data Analysis:** Analysis of the relationships between different variables and the target variable.
-3. **Feature Engineering:** Creating new features and preparing the dataset for modeling.
-4. **Modeling:** Implementing Multiple Linear Regression to predict bike rental demand, including model evaluation and interpretation of coefficients.
-5. **Conclusion:** Summary of the model’s performance and insights derived from the analysis.
+1. Dataset Information: Overview and visualization of the dataset to understand the distribution of variables.
+2. Exploratory Data Analysis: Analysis of the relationships between different variables and the target variable.
+3. Feature Engineering: Creating new features and preparing the dataset for modeling.
+4. Modeling: Implementing Multiple Linear Regression to predict bike rental demand, including model evaluation and interpretation of coefficients.
+5. Conclusion: Summary of the model’s performance and insights derived from the analysis.
 
 ## Usage
 
@@ -69,10 +69,10 @@ You can adjust the model parameters or experiment with different features to imp
 
 This project covers:
 
-- **Exploratory Data Analysis:** Understanding the relationships between variables.
-- **Model Building:** Implementing and interpreting Multiple Linear Regression.
-- **Model Evaluation:** Assessing model performance using metrics such as R-squared and Mean Squared Error (MSE).
-- **Hypothesis Testing:** Evaluating the significance of individual predictors.
+- Exploratory Data Analysis: Understanding the relationships between variables.
+- Model Building: Implementing and interpreting Multiple Linear Regression.
+- Model Evaluation: Assessing model performance using metrics such as R-squared and Mean Squared Error (MSE).
+- Hypothesis Testing: Evaluating the significance of individual predictors.
 
 ## Conclusion
 
